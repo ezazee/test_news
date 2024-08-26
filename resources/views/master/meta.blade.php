@@ -1,28 +1,58 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>News Letter GoPub</title>
+<title>
+    {{ request()->is('/') ? 'FTNews' : $post->title ?? 'FTNews' }}
+</title>
 <meta name="description"
-    content="News Letter GoPub a clean, modern and pixel-perfect multipurpose blogging HTML5 website template.">
-<meta name="keywords" content="news, berita, ftnews, politics">
-<link rel="canonical" href="#">
+    content="
+    {{ request()->is('/') ? 'Welcome to FTNews, your source for the latest news and updates.' : $post->description ?? 'FTNews description' }}
+">
+<link rel="icon" type="image/png" href="{{ URL::asset('Icon-light.webp') }}">
+<meta name="keywords"
+    content="
+    {{ request()->is('/') ? 'news, updates, FTNews, nasional, hukum, politik, daerah, metropolitan, lifestyle, kesehatan' : $post->keywords ?? 'news, updates, FTNews, nasional, hukum, politik, daerah, metropolitan, lifestyle, kesehatan' }}
+">
+<link rel="canonical" href="https://ftnews.co.id/" />
 <meta name="theme-color" content="#50a5dc">
 
-<!-- Open Graph Tags -->
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="website">
-<meta property="og:title" content="News Letter GoPub">
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="
+{{ request()->is('/') ? 'FTnews' : $post->title ?? 'FTnews' }}
+">
 <meta property="og:description"
-    content="Full-featured, professional-looking news, editorial and magazine website template.">
-<meta property="og:url" content="#/">
-<meta property="og:site_name" content="News Letter GoPub">
-<meta property="og:image" content="../../../unistudio.co/html/News Letter GoPub/assets/images/common/seo-image.html">
-<meta property="og:image:width" content="1180">
-<meta property="og:image:height" content="600">
-<meta property="og:image:type" content="image/png">
+    content="
+{{ request()->is('/') ? 'Welcome to FTnews, your source for the latest news and updates.' : $post->description ?? 'FTnews description' }}
+">
+<meta property="og:image"
+    content="
+{{ isset($post) && $post instanceof \Illuminate\Pagination\LengthAwarePaginator
+    ? (isset($post->data[0]->gambar) && is_string($post->data[0]->gambar)
+        ? asset('storage/' . $post->data[0]->gambar)
+        : asset('images/icon-ftnews.png'))
+    : (isset($post->gambar) && is_string($post->gambar)
+        ? asset('storage/' . $post->gambar)
+        : asset('images/icon-ftnews.png')) }}
+">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FTnews">
 
-<!-- Twitter Card Tags -->
+<!-- Twitter Card Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="News Letter GoPub">
+<meta name="twitter:title" content="
+{{ request()->is('/') ? 'FTnews' : $post->title ?? 'FTnews' }}
+">
 <meta name="twitter:description"
-    content="Full-featured, professional-looking news, editorial and magazine website template.">
-<meta name="twitter:image" content="../../../unistudio.co/html/News Letter GoPub/assets/images/common/seo-image.html">
+    content="
+{{ request()->is('/') ? 'Welcome to FTnews, your source for the latest news and updates.' : $post->description ?? 'FTnews description' }}
+">
+<meta name="twitter:image"
+    content="
+{{ isset($post) && $post instanceof \Illuminate\Pagination\LengthAwarePaginator
+    ? (isset($post->data[0]->gambar) && is_string($post->data[0]->gambar)
+        ? asset('storage/' . $post->data[0]->gambar)
+        : asset('images/icon-ftnews.png'))
+    : (isset($post->gambar) && is_string($post->gambar)
+        ? asset('storage/' . $post->gambar)
+        : asset('images/icon-ftnews.png')) }}
+">

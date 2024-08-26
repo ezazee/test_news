@@ -21,12 +21,16 @@
 <link rel="stylesheet" href="{{ asset('assets/js/uni-core/css/uni-core.min.css') }}">
 
 <!-- include styles -->
-<link rel="stylesheet" href="{{ asset('assets/css/unicons.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/prettify.min.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
 
 <!-- include main style -->
 <link rel="stylesheet" href="{{ asset('assets/css/theme/main.min.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/theme/partial-theme1.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/theme/partial-theme2.css') }}">
 
 <!-- include scripts -->
 <script src="{{ asset('assets/js/uni-core/js/uni-core-bundle.min.js') }}"></script>

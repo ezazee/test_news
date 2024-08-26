@@ -107,11 +107,10 @@
                     <div class="vstack lg:hstack gap-2">
                         <div class="footer-logo text-center">
                             <img class="uc-logo w-100px text-gray-900 dark:text-white"
-                                src="https://html.themewant.com/news5/assets/images/main/common/logo.svg" alt="News5"
-                                data-uc-svg>
+                                src="{{ URL::asset('assets/images/logo/ftlogo.webp') }}" alt="FTNews" data-uc-svg>
                         </div>
                         <div class="vr mx-2 d-none lg:d-inline-flex"></div>
-                        <p class="footer-copyrights">News5 © 2024, All rights reserved.</p>
+                        <p class="footer-copyrights">PT Forum Terkini Media, 2024 © All Rights Reserved</p>
                         <ul class="footer-site-links nav-x gap-2 fw-medium justify-center lg:justify-start">
                             <li><a class="uc-link text-underline hover:text-gray-900 dark:hover:text-white duration-150"
                                     href="page-privacy.html">Privacy notice</a></li>
