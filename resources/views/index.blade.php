@@ -3,7 +3,7 @@
 @section('content')
     <div id="wrapper" class="wrap overflow-hidden-x">
 
-        <!-- Section start -->
+        <!-- Hero Section -->
         <div class="block-slider block-slider-miniposts panel swiper-parent uc-dark">
             <div class="swiper-main swiper"
                 data-uc-swiper="connect: .swiper-thumbs; items: 1; autoplay: 5000; active: 1; gap: 0; dots: .swiper-pagination; disable-class: opacity-30; effect: fade; fade: true;">
@@ -60,8 +60,6 @@
                                                     <div>
                                                         <a href="#post_comment"
                                                             class="post-comments text-none hstack gap-narrow">
-                                                            <i class="icon-narrow unicon-chat"></i>
-                                                            <span>15</span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -126,8 +124,6 @@
                                                     <div>
                                                         <a href="#post_comment"
                                                             class="post-comments text-none hstack gap-narrow">
-                                                            <i class="icon-narrow unicon-chat"></i>
-                                                            <span>20</span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -193,8 +189,6 @@
                                                     <div>
                                                         <a href="#post_comment"
                                                             class="post-comments text-none hstack gap-narrow">
-                                                            <i class="icon-narrow unicon-chat"></i>
-                                                            <span>5</span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -215,11 +209,11 @@
                     <div class="hstack justify-end md:justify-start gap-1">
                         <div
                             class="swiper-nav swiper-prev btn w-40px lg:w-48px h-40px lg:h-48px p-0 border-0 bg-white bg-opacity-30 hover:bg-primary hover:bg-opacity-100 text-white rounded-circle shadow-xs z-1">
-                            <i class="unicon-chevron-left icon-1"></i>
+                            <i class="fa-solid fa-chevron-left"></i>
                         </div>
                         <div
                             class="swiper-nav swiper-next btn w-40px lg:w-48px h-40px lg:h-48px p-0 border-0 bg-white bg-opacity-30 hover:bg-primary hover:bg-opacity-100 text-white rounded-circle shadow-xs z-1">
-                            <i class="unicon-chevron-right icon-1"></i>
+                            <i class="fa-solid fa-chevron-right"></i>
                         </div>
                     </div>
                 </div>
@@ -314,10 +308,9 @@
                 </div>
             </div>
         </div>
+        <!-- Hero Section end -->
 
-        <!-- Section end -->
-
-        <!-- Section start -->
+        <!-- Iklan Section 1 start -->
         <div class="section panel overflow-hidden">
             <div class="section-outer panel pt-5 lg:pt-8">
                 <div class="container max-w-xl">
@@ -332,8 +325,7 @@
                 </div>
             </div>
         </div>
-
-        <!-- Section start -->
+         <!-- Iklan Sectio 1 end -->
 
         <!-- Section start -->
         <div class="section panel overflow-hidden">
