@@ -62,17 +62,10 @@
                         <div class="col-12 md:col-5">
                             <div class="widget newsletter-widget vstack gap-3">
                                 <div class="widgt-title">
-                                    <h4 class="h4 lg:h3 lg:-ls-2 m-0">Keep up to date with the latest updates & news
-                                    </h4>
+                                    <h4 class="h4 lg:h3 lg:-ls-2 m-0">Tentang FTNews</h4>
                                 </div>
                                 <div class="widgt-content">
-                                    <form class="hstack">
-                                        <input
-                                            class="form-control form-control-sm fs-6 fw-medium h-40px rounded-end-0 bg-white dark:bg-gray-800 dark:bg-gray-800 dark:border-white dark:border-opacity-15 dark:border-opacity-15"
-                                            type="email" placeholder="Your email" required="">
-                                        <button class="btn btn-sm btn-primary rounded-start-0 min-w-100px"
-                                            type="submit">Sign up</button>
-                                    </form>
+                                    Merupakan media siber yang mengedepankan akurasi. Penyajian berita dengan mengutamakan kecepatan bukan prioritas utama kami. Menjadikan berita sebagai inspirasi sudah pasti. Itulah ciri kami.
                                     <p class="fs-7 fw-medium text-dark dark:text-white text-opacity-50 mt-2">By pressing
                                         the Subscribe button, you confirm that you have read and are agreeing to our <a
                                             href="page-privacy.html" class="uc-link dark:text-white">Privacy Policy</a>
@@ -81,19 +74,23 @@
                                     <ul class="footer-social nav-x gap-2 mt-2 lg:mt-4">
                                         <li>
                                             <a class="hover:text-gray-900 dark:hover:text-white duration-150"
-                                                href="#fb"><i class="icon icon-2 unicon-logo-facebook"></i></a>
+                                                href="https://www.facebook.com/ForumTerkiniNews" target="_blank"><i class="icon icon-2 fa-brands fa-facebook"></i></a>
                                         </li>
                                         <li>
                                             <a class="hover:text-gray-900 dark:hover:text-white duration-150"
-                                                href="#x"><i class="icon icon-2 unicon-logo-x-filled"></i></a>
+                                                href="https://twitter.com/Forumterkiniid" target="_blank"><i class="icon icon-2 fa-brands fa-x-twitter"></i></a>
                                         </li>
                                         <li>
                                             <a class="hover:text-gray-900 dark:hover:text-white duration-150"
-                                                href="#in"><i class="icon icon-2 unicon-logo-instagram"></i></a>
+                                                href="https://www.instagram.com/forumterkininews/" target="_blank"><i class="icon icon-2 fa-brands fa-instagram"></i></a>
                                         </li>
                                         <li>
                                             <a class="hover:text-gray-900 dark:hover:text-white duration-150"
-                                                href="#yt"><i class="icon icon-2 unicon-logo-youtube"></i></a>
+                                                href="https://www.tiktok.com/@forumterkininews.id" target="_blank"><i class="icon icon-2 fa-brands fa-tiktok"></i></a>
+                                        </li>
+                                        <li>
+                                            <a class="hover:text-gray-900 dark:hover:text-white duration-150"
+                                                href="https://www.youtube.com/channel/UCQ0gJQW8XI8dGdYic-zEoXw" target="_blank"><i class="icon icon-2 fa-brands fa-youtube"></i></a>
                                         </li>
                                     </ul>
                                 </div>
