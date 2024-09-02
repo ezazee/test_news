@@ -78,48 +78,7 @@
                 <li><a href="#">Teknologi</a></li>
                 <li><a href="#">Olahraga</a></li>
                 <li><a href="#">Otomotif</a></li>
-                <li><a target="_blank" href="https://pemilunesia.com/">Pemolukada</a></li>
-
-                {{-- Menu Sub Sidebar --}}
-                {{-- <li class="uc-parent">
-                    <a href="#">Inner Pages</a>
-                    <ul class="uc-nav-sub" data-uc-nav="">
-                        <li class="uc-parent">
-                            <a href="blog.html">Blog</a>
-                            <ul class="uc-nav-sub">
-                                <li><a href="blog.html">Full Width</a></li>
-                                <li><a href="blog-2cols.html">Grid 2 Cols</a></li>
-                                <li><a href="blog-3cols.html">Grid 3 Cols</a></li>
-                                <li><a href="blog-4cols.html">Grid 4 Cols</a></li>
-                            </ul>
-                        </li>
-                        <li class="uc-parent">
-                            <a href="blog-details.html">Blog - detail</a>
-                            <ul class="uc-nav-sub">
-                                <li><a href="blog-details.html">Blog detail</a></li>
-                                <li><a href="blog-details-2.html">Blog detail - v2</a></li>
-                            </ul>
-                        </li>
-                        <li class="uc-parent">
-                            <a href="#">Useful pages</a>
-                            <ul class="uc-nav-sub">
-                                <li><a href="sign-up.html">Sign up</a></li>
-                                <li><a href="sign-in.html">Sign in</a></li>
-                                <li><a href="reset-password.html">Reset password</a></li>
-                                <li><a href="404.html">404 page</a></li>
-                                <li><a href="coming-soon.html">Coming soon</a></li>
-                            </ul>
-                        </li>
-                        <li class="uc-parent">
-                            <a href="#">Other pages</a>
-                            <ul class="uc-nav-sub">
-                                <li><a href="page-faq.html">FAQ</a></li>
-                                <li><a href="page-terms.html">Terms of use</a></li>
-                                <li><a href="page-privacy.html">Privacy policy</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li> --}}
+                <li><a target="_blank" href="https://pemilunesia.com/">Pemilukada</a></li>
 
                 {{-- Contoh Class Sekatan --}}
                 {{-- <li class="hr opacity-10 my-1"></li> --}}
